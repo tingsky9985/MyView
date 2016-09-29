@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+
+<!--    <com.ting.scratch.myapplication.TestView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+<!--    <com.ting.scratch.myapplication.BitmapView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+    <com.ting.scratch.myapplication.CheckView
+        android:id="@+id/check_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/check"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="check"
+        android:clickable="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="CHECK"
+        />
+
+    <Button
+        android:id="@+id/uncheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="unCheck"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="UNCHECK"/>
+
+</RelativeLayout>
